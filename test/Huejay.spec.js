@@ -11,7 +11,7 @@ describe('Huejay', () => {
     });
   });
 
-  describe('discover property', () => {
+  describe.skip('discover property', () => {
     it('should be a function', () => {
       expect(Huejay).to.have.property('discover');
       expect(Huejay.discover).to.be.a('function');
